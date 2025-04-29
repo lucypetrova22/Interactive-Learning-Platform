@@ -1,0 +1,76 @@
+📄 README: Interactive Learning Platform
+Project Overview
+This is a multi-page website created using HTML, CSS, and JavaScript.
+The project demonstrates web design skills by incorporating:
+
+Navigation Menu with Icons
+
+Responsive Hero Sections
+
+Embedded Video
+
+Images, Lists, and Tables
+
+External JavaScript file with Functions
+
+Custom Designed Logo and Icons
+
+📥 How to Open the Project in IntelliJ IDEA
+Open IntelliJ IDEA.
+
+Click File > New > Project from Existing Sources.
+
+Navigate to your project folder where you saved all your files (Home.html, AboutUs.html, FAQ.html, Contact.html, all CSS, JS, Images, Videos).
+
+Select the project folder and click OK.
+
+In IntelliJ IDEA:
+
+Right-click on Home.html → Select Open in Browser → Choose your browser (e.g., Chrome, Firefox).
+
+If the browser icon does not appear:
+
+Go to File > Settings > Plugins
+
+Search for "JavaScript and HTML" plugins and install them.
+
+Restart IntelliJ and try again.
+
+📁 Project Structure
+
+InteractiveLearningPlatform/
+│
+├── Home.html
+├── AboutUs.html
+├── FAQ.html
+├── Contact.html
+├── style.css         (for Home)
+├── style1.css        (for Contact)
+├── style2.css        (for FAQ)
+├── style3.css        (for About Us)
+├── myScript.js       (JavaScript file)
+│
+├── images/           (Folder with logo and icons)
+│    ├── logolearning.png
+│    ├── HOMEICON.png
+│    ├── aboutusicon.png
+│    ├── faqiconpng.png
+│    ├── contactusicon.png
+│    ├── contacticon.jpg
+│    ├── intlearning.jpg
+│    ├── aboutus.jpg
+│
+├── videos/           (Folder with embedded video)
+│    ├── aivideo.mp4
+
+🔥 Important Notes
+Do not rename the folders like images/ and videos/.
+
+All paths must remain relative (e.g., images/aboutus.jpg).
+
+Make sure your video (aivideo.mp4) is inside the videos/ folder.
+
+To test JavaScript functions (e.g., greeting pop-up or scroll buttons), make sure myScript.js is correctly linked in each HTML page.
+
+Author
+Lyudmila Petrova
