@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="myScript.js" defer></script>
+</head>
+<body onload="greetUser()">
+<header>
+    <img src="images/logolearning.png" alt="Logo" class="logo">
+    <h1>Interactive Learning Platform</h1>
+    <nav>
+        <ul class="navbar">
+            <li><a href="Home.html"><img src="images/HOMEICON.png" alt="Home Icon">Home</a></li>
+            <li><a href="AboutUs.html"><img src="images/aboutusicon.png" alt="About Us Icon">About Us</a></li>
+            <li><a href="FAQ.html"><img src="images/faqiconpng.png" alt="FAQ Icon">FAQ</a></li>
+            <li><a href="Contact.html"><img src="images/contactusicon.png" alt="Contact Icon">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="hero">
+        <div class="hero-inner">
+            <div class="hero-text">
+                <h2>Contact Us</h2>
+                <p>We would love to hear from you!</p>
+            </div>
+            <div class="hero-image">
+                <img src="images/contacticon.jpg" alt="Contact Us Image">
+            </div>
+        </div>
+    </section>
+
+
+    <section class="features">
+        <div class="feature wide-feature">
+            <h3>Send Us a Message</h3>
+            <form onsubmit="return validateForm()">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        <div class="feature small-feature">
+            <h3>Our Locations</h3>
+            <p><strong>USA:</strong> 123 Learning Drive, Knowledge City, USA</p>
+            <p><strong>Bulgaria:</strong> Blvd. Bulgaria 28, Sofia</p>
+            <p><strong>Germany:</strong> Maximillian Straße 91, Munich</p>
+        </div>
+
+        <div class="feature small-feature">
+            <h3>Contact Details</h3>
+            <p><strong>Email:</strong> support@interactivelearning.com</p>
+            <p><strong>Phone (USA):</strong> +1 234 567 890</p>
+            <p><strong>Phone (Bulgaria):</strong> +359 2 987 6543</p>
+            <p><strong>Phone (Germany):</strong> +49 89 123 4567</p>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <img src="images/logolearning.png" alt="Footer Logo" class="footer-logo">
+    <p>&copy; 2025 Interactive Learning Platform</p>
+</footer>
+</body>
+</html>

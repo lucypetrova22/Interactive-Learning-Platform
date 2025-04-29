@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Learning Platform</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="myScript.js" defer></script>
+</head>
+<body onload="greetUser()">
+<header>
+    <img src="images/logolearning.png" alt="Logo" class="logo">
+    <h1>Interactive Learning Platform</h1>
+    <nav>
+        <ul class="navbar">
+            <li><a href="Home.html"><img src="images/HOMEICON.png" alt="Home Icon">Home</a></li>
+            <li><a href="AboutUs.html"><img src="images/aboutusicon.png" alt="About Us Icon">About Us</a></li>
+            <li><a href="FAQ.html"><img src="images/faqiconpng.png" alt="FAQ Icon">FAQ</a></li>
+            <li><a href="Contact.html"><img src="images/contactusicon.png" alt="Contact Icon">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="hero">
+        <div class="hero-inner">
+            <div class="hero-text">
+                <h2>Welcome to Our Platform</h2>
+                <p>Discover resources and tools to make learning engaging and effective.</p>
+                <button onclick="scrollToFeatures()">Get Started</button>
+            </div>
+            <div class="hero-image">
+                <img src="images/intlearning.jpg" alt="Learning Image" />
+            </div>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <div class="feature">
+            <h3>Interactive Courses</h3>
+            <p>Engage in interactive lessons that cater to all learning styles.</p>
+        </div>
+        <div class="feature">
+            <h3>Expert Guidance</h3>
+            <p>Learn from top instructors with real-world experience.</p>
+        </div>
+        <div class="feature">
+            <h3>Community Support</h3>
+            <p>Join learners worldwide and grow together.</p>
+        </div>
+    </section>
+
+    <section class="video-section">
+        <h2>Watch Our Introduction</h2>
+        <video width="600" controls>
+            <source src="videos/aivideo.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+    </section>
+</main>
+
+<footer>
+    <img src="images/logolearning.png" alt="Footer Logo" class="footer-logo">
+    <p>&copy; 2025 Interactive Learning Platform</p>
+</footer>
+</body>
+</html>
